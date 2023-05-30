@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "start": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "start": "vite",
+    "build": "vite build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@cldcvr/flow-code-editor": "0.0.8-beta1",
+    "@cldcvr/flow-code-editor": "0.0.8-beta3",
     "@cldcvr/flow-core": "latest",
     "@cldcvr/flow-lineage": "latest",
     "@cldcvr/flow-system-icon": "^1.3.1",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-vue": "^4.2.3",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
@@ -32,6 +33,8 @@
     "prettier": "^2.4.1",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
-    "typescript": "~4.5.5"
+    "typescript": "~4.5.5",
+    "vite": "^4.3.9",
+    "vite-plugin-static-copy": "^0.15.0"
   }
 }

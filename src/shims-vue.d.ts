@@ -14,11 +14,6 @@ declare module "*.css" {
   export default content;
 }
 
-declare module "*.js" {
-  const content: Record<string, string>;
-  export default content;
-}
-
 declare module "*?worker" {
-  export default FunctionConstructor<Worker>;
+  export default FunctionConstructor;
 }
